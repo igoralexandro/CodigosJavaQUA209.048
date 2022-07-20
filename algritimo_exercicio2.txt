@@ -1,0 +1,36 @@
+package aulas;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class EntradaDadosTeclado {
+
+	public static void main(String[] args) {
+		
+	Scanner leia = new Scanner(System.in).useLocale(Locale.US);
+		
+	String nome;
+	int idade = 0;
+	char sexo;
+	double dinheiro = 0.0;
+	
+	
+		System.out.println("Insira o Nome de Usuario: ");
+			nome = leia.nextLine();
+		
+		System.out.println("Insira a Idade: ");
+			idade = leia.nextInt();
+		
+		System.out.println("Informe o Sexo: ");
+			sexo = leia.next().charAt(0);
+			
+		System.out.println("informe a Fortuna:");
+			dinheiro = leia.nextDouble();
+			
+			System.out.println("Nome de usuario: " + nome);
+			System.out.println("Idade: " + idade);
+			System.out.println("Sexo: " + sexo);
+			System.out.println("Fortuna: " + dinheiro);
+			
+		
+		leia.close();

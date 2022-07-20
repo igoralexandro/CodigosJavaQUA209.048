@@ -1,0 +1,32 @@
+package aulas;
+
+public class PrimeiroExercicio {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int minhaIdade = 22;
+		double minhaAltura = 1.77;
+		double Dinheiro = 99.99;
+		String meuNome ="Igor Alexandro";
+		String meuSobrenome ="Silva de Oliveira";
+		char sexo = 'M';
+		
+		boolean errado = false;
+		boolean certo = true;
+		
+		
+		
+		System.out.println(minhaIdade + "\n" + minhaAltura);
+		System.out.println(meuNome + "\n" + sexo);
+		System.out.println(certo + "\n" + errado);
+		System.out.println(meuNome + " " + meuSobrenome + " tem " + minhaIdade + " anos, e tem " + "R$" + Dinheiro + "(Reais)");
+
+
+
+1.77
+Igor Alexandro
+M
+true
+false
+Igor Alexandro Silva de Oliveira tem 22 anos, e tem R$99.99(Reais)
