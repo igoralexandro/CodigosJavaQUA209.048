@@ -1,0 +1,29 @@
+package aulas;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner leia = new Scanner(System.in).useLocale(Locale.US);
+		double A = 0.0;
+		double B = 0.0;
+		double C = 0.0;
+		double D = 0.0;
+		int T = 4;
+			System.out.print("Insira a nota do 1º Bimestre: ");
+				A = leia.nextDouble();
+				
+			System.out.print("Insira a nota do 2º Bimestre: ");
+				B = leia.nextDouble();
+				
+			System.out.print("Insira a nota do 3º Bimestre: ");
+				C = leia.nextDouble();
+				
+			System.out.print("Insira a nota do 4º Bimestre: ");
+				D = leia.nextDouble();
+				
+			System.out.print("A média do aluno é: " + (A + B + C + D) / T);

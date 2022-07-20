@@ -1,0 +1,28 @@
+package aulas;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner leia = new Scanner(System.in).useLocale(Locale.US);
+		
+		double A = 0.0;
+		double B = 0.0;
+		
+		System.out.print("Insira o primeiro numero: ");
+			A = leia.nextDouble();
+		System.out.print("Insira o segundo numero: ");
+			B = leia.nextDouble();
+		
+		double C = A + B;
+			
+		System.out.println("A soma de " + A + " + " + B + " é igual a: " + C);
+			
+
+	}
+
+}

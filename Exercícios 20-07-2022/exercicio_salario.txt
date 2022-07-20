@@ -1,0 +1,23 @@
+package aulas;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner leia = new Scanner(System.in).useLocale(Locale.US);
+		
+		double A = 0.0;
+		double B = 0.0;
+		int X = 30;
+		System.out.println("Quanto você ganha por hora ?");
+			A = leia.nextDouble();
+		System.out.println("Quantas horas você trabalha no dia ?");
+			B = leia.nextDouble();
+		System.out.println("Então você ganha R$" + (A * B * X) + " ao mês.");
+	}
+
+}
